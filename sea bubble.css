@@ -1,0 +1,125 @@
+*{
+margin: 0;
+} 
+
+ input{
+
+    position: fixed;
+    top: 40px;
+    background-color: transparent;
+    color: aliceblue;
+    border: 2px solid white;
+    height: 30px;
+animation: name 5s infinite;
+ }
+
+ @keyframes name{
+
+    0%{
+        border-radius: 5px;
+        padding: 5px 20px;
+    }
+
+    50%{
+        border-radius: 20px;
+        padding: 3px 5px;
+    }
+
+    100%{
+        border-radius: 5px;
+        padding: 5px 20px;
+    }
+ }
+   
+.btn1{
+    right: 30px;
+}
+
+.btn2{
+    left: 30px;
+}
+    h1{
+
+        font-family: sans-serif;
+        
+        color: white;
+        position: fixed;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        animation: move 3s infinite;
+       
+    }
+
+    @keyframes move{
+        0%{ transform: translate(0,0);}
+        50%{ transform: translate(0,20px);}
+        100%{ transform: translate(0,0);}
+    }
+    .bub1,.bub2,.bub3,.bub4,.bub5,.bub6,.bub7{
+        width: 50px;
+        margin: 10px;
+       animation: ballon 3s infinite;
+       
+
+    }
+    .bubble{
+
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    
+    @keyframes ballon {
+        0%{transform: translate(0,0);}
+        100%{transform: translate(0,-500px);
+       opacity: 0;
+     }
+    }
+.bub1{
+    animation: ballon 5s infinite;
+    width: 50px;
+    height:50px ;
+}
+.bub2{
+    animation: ballon 6s infinite;
+    width:35px ;
+    height:35px ;
+}
+.bub3{
+    animation: ballon 7s infinite;
+    width: 20px ;
+    height: 20px ;
+}
+.bub4{
+    animation: ballon 4.5s infinite;
+    width: 50px ;
+    height: 50px;
+}
+.bub5{
+    animation: ballon 9s infinite;
+    width: 15px;
+    height:15px ;
+}
+.bub6{
+    animation: ballon 6s infinite;
+    width: 25px ;
+    height: 25px; 
+}
+.bub7{
+    animation: ballon 12s infinite;
+    width: 30px ;
+    height: 30px ;
+}
+
+
+
+
+   
+   
+
+    
+   
